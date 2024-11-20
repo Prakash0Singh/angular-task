@@ -1,0 +1,10 @@
+<h2>Tomorrow list</h2>
+<div class="container ">
+    <div class="row">
+        <div class="col-12" *ngFor="let info of data">
+            <p class="d-inline-block me-2">{{info.opendate|date:'HH:MM:'}}</p>
+            <p class="d-inline-block me-2">{{info.matchname}} -></p>
+            <p class="d-inline-block me-2">{{info.seriesname}} -></p>
+        </div>
+    </div>
+  </div>
